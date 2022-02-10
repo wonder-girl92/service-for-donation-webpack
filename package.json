@@ -9,7 +9,7 @@
     "start": "webpack serve --env development",
     "prod": "webpack serve --env production",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
