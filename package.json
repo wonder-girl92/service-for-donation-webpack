@@ -8,7 +8,7 @@
     "build": "webpack",
     "start": "webpack serve --env development",
     "prod": "webpack serve --env production",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
