@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "homepage": "https://wonder-girl92.github.io/service-for-donation-webpack",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "webpack",
     "start": "webpack serve --env development",
     "prod": "webpack serve --env production",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
